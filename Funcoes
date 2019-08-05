@@ -1,0 +1,4 @@
+A entrada termina com fim de arquivo (import java.io.*)
+
+  while (fileRead.nextLine() != null)
+  
