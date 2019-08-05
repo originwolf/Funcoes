@@ -3,4 +3,41 @@ A entrada termina com fim de arquivo
   import java.io.*;
   while (fileRead.nextLine() != null) //NÃO BEM IMPLEMENTADO AINDA
   
-  while(sc.hasNext()) //70% DE APROVAÇÃO
+  while(sc.hasNext()) //70% DE APROVAÇÃO,
+
+15%(
+package uri;
+import java.util.Scanner;
+
+public class Funcoes {
+    
+    public static void Uri2863(){
+        
+        int voltas;
+        double tempo, menor=12.00;
+        
+        Scanner ler = new Scanner(System.in);
+        
+        while(ler.hasNext()){
+            
+            voltas = ler.nextInt();
+            
+                if (voltas >= 2 && voltas <=99) {
+
+                    while (voltas > 0){
+
+                        while (voltas-- >0){
+                            tempo = ler.nextDouble();
+
+                            if (tempo >= 9 && tempo <= 11) {       
+                                if (tempo < menor) {
+                                    menor = tempo;
+                                }       
+                            }                       
+                        }
+                    System.out.printf("%.2f\n",menor);            
+                }               
+            }             
+        }          
+    }   
+}
