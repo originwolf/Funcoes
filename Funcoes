@@ -1,4 +1,6 @@
-A entrada termina com fim de arquivo (import java.io.*)
+A entrada termina com fim de arquivo 
 
-  while (fileRead.nextLine() != null)
+  import java.io.*;
+  while (fileRead.nextLine() != null) //NÃO BEM IMPLEMENTADO AINDA
   
+  while(sc.hasNext()) //70% DE APROVAÇÃO
